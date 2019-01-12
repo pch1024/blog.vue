@@ -1,0 +1,42 @@
+li {
+  display: inline-block;
+  margin: 0 10px; }
+  li a {
+    color: #42b983; }
+
+h1,
+h2 {
+  font-weight: normal; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px; }
+
+html * {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box; }
+
+
+[data-v-5b685826]::-webkit-input-placeholder {
+  color: gray;
+}
+[data-v-5b685826]:-ms-input-placeholder {
+  color: gray;
+}
+[data-v-5b685826]::placeholder {
+  color: gray;
+}
+div[data-v-5b685826] {
+  background-image: url(../media/logo.png?82b9c7a5a3f405032b1db71a25f67021);
+}
+
