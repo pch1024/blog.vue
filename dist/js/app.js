@@ -36985,7 +36985,7 @@ exports._fullBody = _fullBody;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! @babel/polyfill */"./node_modules/@babel/polyfill/lib/index.js");
-module.exports = __webpack_require__(/*! D:\vue.blog\src\main.js */"./src/main.js");
+module.exports = __webpack_require__(/*! D:\blog.vue\src\main.js */"./src/main.js");
 
 
 /***/ })
