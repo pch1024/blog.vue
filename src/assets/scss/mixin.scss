@@ -1,0 +1,22 @@
+/**
+* 渐进增强，先PC,后PHONE
+*/
+// color
+$main: #33CCCC;
+$fontColor: #333333;
+$gray1: #fafafa;
+$gray2: #f6f7f8;
+$gray3: #aaaaaa;
+// pc 版样式
+@mixin pcStyle {
+	@media screen and (min-width: 1024px) {
+		@content;
+	}
+}
+
+// phone 版样式
+@mixin phoneStyle {
+	@media screen and (max-width: 1023px) {
+		@content;
+	}
+}
