@@ -37,6 +37,7 @@ module.exports = merge(config, {
     }),
     new BundleAnalyzerPlugin()
   ],
-  devtool: 'source-map', // enum
+  // devtool: 'source-map', // enum
+  devtool: 'none', // enum
   mode: 'production'
 })

@@ -547,7 +547,6 @@ html body {
   font-size: 14px;
   min-width: 320px;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  background-image: -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url(.././assets/bg.jpg?342e899576d05c1363859ead161d3199);
   background-size: cover; }
 
 a {
@@ -1313,5 +1312,3 @@ p {
 .markdown-body .pl-12 {
   padding-left: 128px !important; }
 
-
-/*# sourceMappingURL=app.css.map*/
