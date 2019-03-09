@@ -26,7 +26,7 @@ export default {
     return {
       list: {
         data: null,
-        pageSize: 1,
+        pageSize: 30,
         pagerCount: 5,
         total: null,
         currentPage: 1
