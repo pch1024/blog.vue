@@ -503,22 +503,18 @@
 }
 @media screen and (max-width: 1023px) {
 #app[data-v-7ba5bd90] {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-flow: column nowrap;
-          -ms-flex-flow: column nowrap;
-              flex-flow: column nowrap;
+      display: block;
       overflow-y: auto;
 }
 #app .header[data-v-7ba5bd90] {
         width: 100%;
-        height: unset;
-        overflow: unset;
+        height: auto;
+        overflow: auto;
 }
 #app .main[data-v-7ba5bd90] {
         width: 100%;
-        height: unset;
-        overflow: unset;
+        height: auto;
+        overflow: auto;
 }
 #app .footer[data-v-7ba5bd90] {
         display: block;

@@ -76,18 +76,18 @@ $asideBtnW: 50px;
     }
   }
   @include phoneStyle {
-    flex-flow: column nowrap;
+    display: block;
     overflow-y: auto;
 
     .header {
       width: 100%;
-      height: unset;
-      overflow: unset;
+      height: auto;
+      overflow: auto;
     }
     .main {
       width: 100%;
-      height: unset;
-      overflow: unset;
+      height: auto;
+      overflow: auto;
     }
     .footer {
       display: block;
