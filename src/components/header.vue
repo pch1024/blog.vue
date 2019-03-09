@@ -87,7 +87,8 @@ $avatarSize: 100px;
   justify-content: center;
   align-items: flex-end;
   padding: 30px;
-  height: 100%;
+  // height: 100%;
+  width: 100%;
   > div {
     margin: 15px 0;
   }
@@ -109,6 +110,7 @@ $avatarSize: 100px;
     font-size: 18px;
     margin: 5px 0;
     border-bottom: dotted 1px;
+    text-decoration: none;
     cursor: pointer;
     &:hover {
       color: #33cccc;

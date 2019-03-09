@@ -373,7 +373,7 @@
       -ms-flex-align: end;
           align-items: flex-end;
   padding: 30px;
-  height: 100%;
+  width: 100%;
 }
 .header-content > div[data-v-29e8c3c6] {
     margin: 15px 0;
@@ -395,6 +395,7 @@
     font-size: 18px;
     margin: 5px 0;
     border-bottom: dotted 1px;
+    text-decoration: none;
     cursor: pointer;
 }
 .header-content .nav a[data-v-29e8c3c6]:hover {
