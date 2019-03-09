@@ -102,6 +102,9 @@ $avatarSize: 100px;
     line-height: $avatarSize;
     font-size: $avatarSize * 0.6;
   }
+  .motto {
+    width: 100%;
+  }
   .motto p {
     text-align: right;
   }
