@@ -68,11 +68,12 @@ export default {
 .login {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 4px;
     opacity: 0.95;
