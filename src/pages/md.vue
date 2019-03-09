@@ -44,7 +44,7 @@ export default {
         "代码",
         "表情"
       ],
-      isPreview: true,
+      isPreview: false,
       isFullScreen: false,
       doc: {
         id: null,
