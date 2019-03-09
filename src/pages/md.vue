@@ -137,6 +137,7 @@ export default {
     border-bottom: 1px solid $gray3;
     overflow: hidden;
     span {
+      display: inline-block;
       flex-grow: 1;
       width: 50px;
       height: 50px;

@@ -265,6 +265,7 @@
     overflow: hidden;
 }
 .md .options span[data-v-cb28e0ca] {
+      display: inline-block;
       -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
