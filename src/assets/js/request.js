@@ -3,7 +3,7 @@ import router from '@/router/router'
 import { Message } from 'element-ui'
 
 export default (options = {}) => {
-  let serverHost = 'http://koa.blog.peichenhu.cn'
+  // let serverHost = 'http://koa.blog.peichenhu.cn'
   // let serverHost = 'http://192.168.0.104:9000'
   let token = window.localStorage.getItem('token')
   let httpCode = {
@@ -34,7 +34,7 @@ export default (options = {}) => {
   return new Promise((resolve, reject) => {
     // 实例默认值
     let instance = axios.create()
-    instance.defaults.baseURL = serverHost
+    // instance.defaults.baseURL = serverHost
     instance.defaults.timeout = 60000
     axios.defaults.headers.common['Content-Type'] = 'application/json'
     if (options.type === 'form') {

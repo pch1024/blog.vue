@@ -33,6 +33,7 @@ module.exports = merge(config, {
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
+        // target: '47.244.29.42:3000',
         pathRewrite: { '^/api': '' }
       }
     }
