@@ -372,6 +372,7 @@
       -ms-flex-align: end;
           align-items: flex-end;
   padding: 30px;
+  height: 100%;
   width: 100%;
 }
 .header-content > div[data-v-29e8c3c6] {

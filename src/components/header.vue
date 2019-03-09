@@ -87,7 +87,7 @@ $avatarSize: 100px;
   justify-content: center;
   align-items: flex-end;
   padding: 30px;
-  // height: 100%;
+  height: 100%;
   width: 100%;
   > div {
     margin: 15px 0;
