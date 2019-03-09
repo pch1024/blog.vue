@@ -471,6 +471,7 @@
     background: #f6f7f8;
 }
 #app .main[data-v-7ba5bd90] {
+    width: 0;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;

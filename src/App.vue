@@ -43,6 +43,7 @@ $asideBtnW: 50px;
     background: #f6f7f8;
   }
   .main {
+    width: 0;
     flex-grow: 1;
     height: 100%;
     background: white;
