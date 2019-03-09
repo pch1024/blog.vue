@@ -108,6 +108,7 @@
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 .login .box[data-v-c40149d6] {
     position: absolute;
@@ -119,7 +120,9 @@
     background-color: white;
     border-radius: 4px;
     opacity: 0.95;
-    width: 400px;
+    width: 80%;
+    min-width: 300px;
+    max-width: 400px;
     margin: 30px auto;
 }
 .login .box .header[data-v-c40149d6] {
@@ -198,6 +201,11 @@
 }
 .login .box .content .submit[data-v-c40149d6]:hover {
           background: #33CCCC;
+}
+@media screen and (max-width: 1023px) {
+.login[data-v-c40149d6] {
+      height: 500px;
+}
 }
 
 @charset "UTF-8";

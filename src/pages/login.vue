@@ -69,6 +69,7 @@ export default {
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
   .box {
     position: absolute;
     top: 50%;
@@ -77,7 +78,9 @@ export default {
     background-color: white;
     border-radius: 4px;
     opacity: 0.95;
-    width: 400px;
+    width: 80%;
+    min-width: 300px;
+    max-width: 400px;
     margin: 30px auto;
     .header {
       // height: 100px;
@@ -140,6 +143,10 @@ export default {
         }
       }
     }
+  }
+
+  @include phoneStyle {
+    height: 500px;
   }
 }
 </style>
