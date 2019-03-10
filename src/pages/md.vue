@@ -101,7 +101,7 @@ export default {
   > div {
     margin: 30px;
     @include phoneStyle {
-      margin: 15px;
+      margin: 16px;
     }
   }
   .title,
@@ -128,7 +128,7 @@ export default {
   textarea {
     width: 100%;
     outline: none;
-    padding: 15px;
+    padding: 16px;
     resize: none;
   }
   .options {
@@ -175,7 +175,7 @@ export default {
     .preview {
       width: 50%;
       flex-shrink: 0;
-      padding: 15px;
+      padding: 16px;
       overflow-y: auto;
     }
     @include phoneStyle {

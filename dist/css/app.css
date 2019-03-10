@@ -220,7 +220,7 @@
 }
 @media screen and (max-width: 1023px) {
 .md > div[data-v-cb28e0ca] {
-        margin: 15px;
+        margin: 16px;
 }
 }
 .md .title[data-v-cb28e0ca],
@@ -248,7 +248,7 @@
   .md textarea[data-v-cb28e0ca] {
     width: 100%;
     outline: none;
-    padding: 15px;
+    padding: 16px;
     resize: none;
 }
 .md .options[data-v-cb28e0ca] {
@@ -321,7 +321,7 @@
       -webkit-flex-shrink: 0;
           -ms-flex-negative: 0;
               flex-shrink: 0;
-      padding: 15px;
+      padding: 16px;
       overflow-y: auto;
 }
 @media screen and (max-width: 1023px) {
