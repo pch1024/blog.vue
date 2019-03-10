@@ -551,10 +551,7 @@ html body {
   background-size: cover; }
 
 a {
-  text-decoration: unset; }
-
-ul {
-  list-style-type: none; }
+  text-decoration: none; }
 
 p {
   text-align: justify; }
