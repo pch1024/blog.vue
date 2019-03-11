@@ -20,7 +20,7 @@ import xml from 'highlight.js/lib/languages/xml'
 import markdown from 'highlight.js/lib/languages/markdown'
 import shell from 'highlight.js/lib/languages/shell'
 import '@/assets/scss/github-markdown.scss'
-import 'highlight.js/styles/default.css'
+import 'highlight.js/styles/github.css'
 
 // 引入部分组件
 import { Pagination, MessageBox } from 'element-ui'
