@@ -59,6 +59,9 @@ p {
   fill: currentColor;
   overflow: hidden;
 }
+.markdown-body .highlight pre {
+  background-color: #E6E6E6 !important;
+}
 //@at-root
 
 /*定义滚动条高宽及背景
