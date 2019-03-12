@@ -30,6 +30,7 @@ module.exports = merge(config, {
       warnings: true,
       errors: true
     },
+    historyApiFallback: true, // VUE history
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
